@@ -1,0 +1,13 @@
+CREATE TABLE products (
+  id int(11) NOT NULL AUTO_INCREMENT,
+  ItemName varchar(50),
+  Amount DECIMAL(5),
+  Price DECIMAL(5,2),
+  PRIMARY KEY (id)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=5 ;
+
+INSERT INTO products (id, ItemName, Amount, Price) VALUES
+(1, 'Paita', 24, 20),
+(2, 'Housut', 8, 50),
+(3, 'Sukat', 120, 5),
+(4, 'Hattu', 3, 120);
