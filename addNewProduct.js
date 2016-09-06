@@ -18,6 +18,7 @@ function addNewProduct(name, amount, price) {
         con.end();
     }).catch(function (e) {
         console.log("ERROR:", e);
+        HAHAHAHAAHA!!! EXPLODE;;
         con.end();
     });
 }
