@@ -25,6 +25,7 @@ function addNewProduct(name, amount, price) {
 if (process.argv.length == 5) {
     addNewProduct(process.argv[2], process.argv[3], process.argv[4]);
 } else {
-    console.log("XXX Usage: node addNewProduct.js <ItemName> <Amount> <Price>")
+    console.log("Timestamp <NOW>: debug: Usage: node addNewProduct.js <ItemName> <Amount> <Price>")
+
 }
 
